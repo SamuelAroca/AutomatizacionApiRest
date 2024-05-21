@@ -5,5 +5,5 @@ Feature: automatizacion de rest api - pom
 
   Scenario: consultar un usuario con metodo get
     Given se establece la base url "https://gorest.co.in/"
-    When se consulta en el endpoint "public/v2/users/"  por id "6880022"
-    Then se valida que el status code 200 y que contenga el nombre "Ekaling Prajapat"
+    When se consulta en el endpoint "public/v2/users/"  por id "6914439"
+    Then se valida que el status code 200 y que contenga el nombre "Bela Desai"
